@@ -1,0 +1,13 @@
+.cell {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: var(--color-cell-off);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cell.lit {
+  background-color: var(--color-cell-on);
+  box-shadow: 0 0 10px var(--color-cell-on-shadow);
+}

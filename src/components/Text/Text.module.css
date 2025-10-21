@@ -1,0 +1,16 @@
+.text {
+  margin: 0;
+}
+
+.h1 {
+  color: var(--color-foreground);
+  margin-bottom: 20px;
+}
+
+.p {
+  color: var(--color-foreground);
+}
+
+.span {
+  color: inherit;
+}

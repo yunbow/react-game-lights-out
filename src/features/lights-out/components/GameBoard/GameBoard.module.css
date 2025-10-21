@@ -1,0 +1,13 @@
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto 20px;
+  max-width: 350px;
+}
+
+@media screen and (max-width: 480px) {
+  .gameBoard {
+    grid-gap: 5px;
+  }
+}
